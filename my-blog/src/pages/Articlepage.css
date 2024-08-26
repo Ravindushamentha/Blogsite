@@ -1,0 +1,112 @@
+
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff; /* Off-white background */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* Needed for hover effects */
+  }
+  
+  .article-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #f8713a; /* Saffron - Sri Lankan flag color */
+    text-align: center;
+  }
+  
+  .article-container p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #005b96; /* Dark blue - Sri Lankan flag color */
+  }
+  
+  .article-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Optional: Add a subtle stripe to mimic the flag */
+  .article-container::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #f8713a; /* Saffron stripe */
+    opacity: 0.1;
+    margin-top: 20px;
+  }
+  
+  /* Sri Lankan flag hover effect on container */
+  .article-container:hover::after {
+    animation: sriLankaFlag 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes sriLankaFlag {
+    from { opacity: 0.1; }
+    to { opacity: 0.3; }
+  }
+  
+  .add-upvote {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .add-upvote button {
+    background-color: #de8e32; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-upvote button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-upvote p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+  }
+  
+  .add-upvote p span {
+    font-weight: bold;
+    color: #333;
+  }
+  .login-comment {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2c3e50; /* Professional dark blue color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-comment:hover {
+    background-color: #1a252f; /* Darker shade of blue on hover */
+}
+
+.login-comment:active {
+    transform: scale(0.98); /* Slightly scale down on click */
+}
+
+.login-comment:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(44, 62, 80, 0.5); /* Add focus ring */
+}
+

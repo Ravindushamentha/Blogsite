@@ -1,0 +1,51 @@
+.home-container {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 40px; 
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+    background: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.home-container:hover {
+    transform: scale(1.01); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.home-container h1 {
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+    color: #2c3e50; 
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); 
+    transition: color 0.3s; 
+}
+
+.home-container h1:hover {
+    color: #1abc9c; 
+}
+
+.home-container p {
+    font-size: 1.15em; 
+    line-height: 1.75; 
+    color: #34495e; 
+    margin-bottom: 20px; 
+}
+
+.home-container p:last-child {
+    margin-bottom: 0;
+}
+
+.home-container a {
+    color: #1abc9c; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s, text-shadow 0.3s; 
+}
+
+.home-container a:hover {
+    color: #16a085; 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); 
+}

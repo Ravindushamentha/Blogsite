@@ -1,0 +1,24 @@
+.comment-list {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comment h4 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .comment p {
+    color: #666;
+  }
+  
+  .comment:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }

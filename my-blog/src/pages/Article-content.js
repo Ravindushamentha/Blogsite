@@ -1,0 +1,19 @@
+const articles = [
+    {
+      name: 'SriLanka-info',
+      title: 'About Sri Lanka',
+      content: ['Sri Lanka, an island nation in the Indian Ocean southeast of India, boasts a rich history and diverse culture. Formerly known as Ceylon, it has a heritage that spans over 2,500 years, influenced by ancient Sinhalese and Tamil civilizations, and later by Portuguese, Dutch, and British colonial rule. Sri Lanka gained independence from Britain in 1948 and is now a democratic republic. The official languages are Sinhala and Tamil, with English widely spoken. The country is culturally vibrant, celebrating various festivals like Vesak and Diwali, and is renowned for its tea, rubber, and coconut industries, as well as its textile and garment sector.',
+       'Sri Lankas natural beauty and biodiversity are significant draws for tourism. The island features stunning beaches, lush landscapes, and scenic highlands, with notable sites like Sigiriya Rock Fortress and Yala National Park. Wildlife enthusiasts can explore numerous national parks home to elephants, leopards, and diverse bird species. The capital city, Sri Jayawardenepura Kotte, serves as the administrative center, while Colombo is the commercial hub. The country has a population of approximately 21 million people and uses the Sri Lankan Rupee (LKR) as its currency.', 
+       'The cuisine of Sri Lanka is celebrated for its spicy and flavorful dishes, including staples like rice and curry, hoppers, and kottu roti. Education is highly valued, with free education available from primary through tertiary levels, contributing to a high literacy rate. Notable attractions include the Temple of the Tooth in Kandy and the colonial architecture of Galle. Despite a history marked by ethnic tensions and a civil war that ended in 2009, Sri Lanka remains a resilient and captivating nation with much to offer.']
+    },
+    {
+      name: 'Srilanka-people',
+      title: 'About people in Sri Lanka',
+      content: ['Sri Lankan people are known for their warmth, hospitality, and strong sense of community. With a population of around 21 million, the island nation is home to a diverse mix of ethnicities, languages, and religions, contributing to its rich tapestry of cultural heritage. The majority of Sri Lankans are Sinhalese, with Tamil, Muslim, and other ethnic groups also forming significant communities. Despite historical tensions, particularly between the Sinhalese and Tamil populations, Sri Lankans often come together to celebrate shared traditions and festivities, fostering a sense of unity amidst diversity.',
+       'Family plays a central role in Sri Lankan society, with strong ties and intergenerational support networks prevalent across communities. Respect for elders is deeply ingrained, and familial bonds are cherished and prioritized. Traditional values such as compassion, generosity, and respect are upheld, shaping social interactions and everyday life. Whether in urban centers or rural villages, the spirit of kinship and communal cooperation is evident, with neighbors often extending a helping hand to one another in times of need.', 
+       'Sri Lankans are known for their resilience in the face of adversity. Despite challenges such as natural disasters, economic fluctuations, and the aftermath of a prolonged civil conflict, the people of Sri Lanka demonstrate a remarkable ability to bounce back and rebuild. There is a prevailing sense of optimism and determination to overcome obstacles and pursue a better future for themselves and their families. This resilience is reflected in various aspects of Sri Lankan life, from the vibrant entrepreneurship scene to the thriving cultural expressions that continue to evolve and flourish.']
+    },
+    // Add more articles as needed
+  ];
+  
+  export default articles;

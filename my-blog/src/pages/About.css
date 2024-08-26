@@ -1,0 +1,32 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+      padding: 10px;
+  }
+  .about-heading {
+      font-size: 1.5rem;
+  }
+  .about-content {
+      font-size: 1rem;
+  }
+}
