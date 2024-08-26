@@ -3,3 +3,4 @@ server.json
 build
 db.js
 .env
+prod-env.yaml
